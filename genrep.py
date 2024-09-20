@@ -8,7 +8,6 @@ pararell = []
 for i in range(amount_res):
     resistance = float(input(f"Resistans {i + 1}: "))
     resistances.append(resistance)
-    para = 1/resistance
     pararell.append(1/resistance)
 serie_resistance = sum(resistances)
 pararell_resistance = sum(pararell)
